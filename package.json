@@ -1,0 +1,22 @@
+{
+  "name": "frontend-components-tinymce-advanced-plugins",
+  "version": "1.0.0",
+  "description": "TinyMCE Premium openedX Plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "smoke-test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openedx/frontend-components-tinymce-advanced-plugins.git"
+  },
+  "author": "edX",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/openedx/frontend-components-tinymce-advanced-plugins/issues"
+  },
+  "homepage": "https://github.com/openedx/frontend-components-tinymce-advanced-plugins#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,11 @@
+.cache
+.DS_Store
+coverage
+dist
+node_modules
+temp
+src/i18n/transifex_input.json
+.vscode/
+*~
+module.config.js
+.idea/
