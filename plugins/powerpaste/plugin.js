@@ -5,4 +5,5 @@
  *
  * Version: 5.6.2-4
  */
-!function(){console.log('filler function for TinyMCE Tiny PowerPaste Plugin');}();
+/* eslint-disable no-unused-expressions */
+!(function () { console.log('filler function for TinyMCE Tiny PowerPaste Plugin'); }());
