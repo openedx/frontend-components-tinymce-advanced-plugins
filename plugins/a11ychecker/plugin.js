@@ -5,4 +5,5 @@
  *
  * Version: 2.3.2-131
  */
-!function(){console.log('filler function for TinyMCE Tiny Accessibility Checker Plugin');}();
+/* eslint-disable no-unused-expressions */
+!(function () { console.log('filler function for TinyMCE Tiny Accessibility Checker Plugin'); }());

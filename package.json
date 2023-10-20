@@ -4,7 +4,9 @@
   "description": "TinyMCE Premium openedX Plugins",
   "main": "index.js",
   "scripts": {
-    "test": "smoke-test.sh"
+    "lint": "fedx-scripts eslint --fix --ext .js --ext .jsx .",
+    "test": "npm run lint",
+    "build": "make build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/openedx/frontend-components-tinymce-advanced-plugins#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@edx/frontend-build": "12.8.27",
+    "tinymce": "^6.7.0"
   }
 }
