@@ -1,3 +1,16 @@
 export { default as a11ychecker } from './plugins/a11ychecker';
 export { default as a11ycheckerCss } from './plugins/a11ychecker/css';
 export { default as powerpaste } from './plugins/powerpaste';
+export { default as link } from 'tinymce/plugins/link';
+export { default as lists } from 'tinymce/plugins/lists';
+export { default as table } from 'tinymce/plugins/table';
+export { default as hr } from 'tinymce/plugins/hr';
+export { default as codesample } from 'tinymce/plugins/codesample';
+export { default as emoticons } from 'tinymce/plugins/emoticons';
+export { default as emojis } from 'tinymce/plugins/emoticons/js/emojis';
+export { default as charmap } from 'tinymce/plugins/charmap';
+export { default as code } from 'tinymce/plugins/code';
+export { default as autoresize } from 'tinymce/plugins/autoresize';
+export { default as image } from 'tinymce/plugins/image';
+export { default as imagetools } from 'tinymce/plugins/imagetools';
+export { default as quickbars } from 'tinymce/plugins/quickbars';

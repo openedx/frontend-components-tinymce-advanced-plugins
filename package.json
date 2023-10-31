@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "@edx/frontend-build": "12.8.27",
-    "tinymce": "^6.7.0"
+    "tinymce": "^5.10.4"
   }
 }
