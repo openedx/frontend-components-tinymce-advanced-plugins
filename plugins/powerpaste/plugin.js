@@ -1,9 +1,11 @@
-/*!
- * Tiny PowerPaste plugin
- *
- * Copyright 2010-2021 Tiny Technologies, Inc. All rights reserved.
- *
- * Version: 5.6.2-4
- */
-/* eslint-disable no-unused-expressions */
-!(function () { console.log('filler function for TinyMCE Tiny PowerPaste Plugin'); }());
+import tinymce from 'tinymce';
+
+// eslint-disable-next-line no-unused-vars
+tinymce.PluginManager.add('powerpaste', (editor, url) => ({
+  getMetadata() {
+    return {
+      name: 'stub open-source powerpaste',
+      url: 'https://github.com/openedx/frontend-components-tinymce-advanced-plugins',
+    };
+  },
+}));
