@@ -6,13 +6,6 @@ kind: Component
 metadata:
   name: 'frontend-components-tinymce-advanced-plugins'
   description: "the standard edX header for use in React applications"
-  links:
-    - url: "https://github.com/openedx/frontend-components-tinymce-advanced-plugins"
-      title: "openedx/frontend-components-tinymce-advanced-plugins"
-      icon: "GitHub"
-  annotations:
-    openedx.org/arch-interest-groups: ""
-    openedx.org/release: "main"
 spec:
   owner: group:openedx-unmaintained
   type: 'library'
