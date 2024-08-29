@@ -5,7 +5,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: 'frontend-components-tinymce-advanced-plugins'
-  description: "the standard edX header for use in React applications"
+  description: "A set of tinymce plugins to use in react applications."
 spec:
   owner: group:openedx-unmaintained
   type: 'library'
