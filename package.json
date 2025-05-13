@@ -22,7 +22,7 @@
     "access": "public"
   },
   "dependencies": {
-    "tinymce": "^5.10.4"
+    "tinymce": "^7.0.0"
   },
   "devDependencies": {
     "@openedx/frontend-build": "13.1.4"
