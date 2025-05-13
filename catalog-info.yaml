@@ -6,7 +6,12 @@ kind: Component
 metadata:
   name: 'frontend-components-tinymce-advanced-plugins'
   description: "A set of tinymce plugins to use in react applications."
+  links:
+    - url: "https://github.com/openedx/frontend-components-tinymce-advanced-plugins/blob/master/README.rst"
+      title: "Documentation"
+      icon: "Article"
+  annotations:
+    openedx.org/arch-interest-groups: "angonz"
 spec:
-  owner: group:openedx-unmaintained
+  owner: user:angonz
   type: 'library'
-  lifecycle: 'unmaintained'
