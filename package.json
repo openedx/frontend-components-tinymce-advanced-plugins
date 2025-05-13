@@ -25,6 +25,6 @@
     "tinymce": "^5.10.4"
   },
   "devDependencies": {
-    "@openedx/frontend-build": "13.1.4"
+    "@openedx/frontend-build": "14.6.0"
   }
 }
