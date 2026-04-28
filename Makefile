@@ -8,6 +8,28 @@ transifex_input = $(i18n)/transifex_input.json
 # This directory must match .babelrc .
 transifex_temp = ./temp/babel-plugin-react-intl
 
+.DEFAULT_GOAL := help
+
+.PHONY: help
+help:
+	@echo "Available targets:"
+	@echo ""
+	@echo "  make requirements              - Install npm dependencies"
+	@echo "  make build                     - Build the project to dist/"
+	@echo ""
+	@echo "  make test                      - Run all tests"
+	@echo "  make test.watch                - Run tests in watch mode"
+	@echo "  make test.coverage             - Run tests with coverage report"
+	@echo "  make test.lint                 - Run linting and tests"
+	@echo ""
+	@echo "  make extract_translations      - Extract translations for Transifex"
+	@echo "  make push_translations         - Push translations to Transifex"
+	@echo "  make pull_translations         - Pull translations from Transifex"
+	@echo ""
+	@echo "  make validate-no-uncommitted-package-lock-changes"
+	@echo "                                 - Check for package-lock.json changes"
+	@echo ""
+
 build:
 	rm -rf ./dist
 	./node_modules/.bin/fedx-scripts babel plugins --out-dir dist --source-maps --ignore **/*.test.jsx,**/__mocks__,**/__snapshots__,**/setupTest.js --copy-files
@@ -18,6 +40,18 @@ build:
 
 requirements:
 	npm install
+
+test:
+	npm run test
+
+test.watch:
+	npm run test:watch
+
+test.coverage:
+	npm run test:coverage
+
+test.lint:
+	npm run test:lint
 
 i18n.extract:
 	# Pulling display strings from .jsx files into .json files...
